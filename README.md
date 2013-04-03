@@ -1,7 +1,7 @@
 Lazy Delivery Network
 =====================
 
-One-file applicate made for lazy developers. Now you can put all your JavaScript and CSS files in one place and have them accessible locally from one place.
+One-file application made for lazy developers. Now you can put all your JavaScript and CSS files in one place and have them accessible locally. To be even more lazy path to file is selected automatically after click :D
 
 Yes, I know about tools like bower, but when I'm not using them for now I better like this solution :P
 

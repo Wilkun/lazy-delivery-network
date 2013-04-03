@@ -14,7 +14,7 @@ foreach ($dirs as $dir) {
 
 	if ($handle = opendir(__DIR__.'/'.$dir)) {
 	    while (false !== ($entry = readdir($handle))) {
-	        if ($entry != "." && $entry != "..") {
+	        if ($entry != "." && $entry != ".." && $entry != '.gitignore') {
 	            $list[$dir][] = $entry;
 	        }
 	    }
@@ -63,7 +63,7 @@ foreach ($dirs as $dir) {
 		<?php endforeach; ?>
 		</tbody>
 	</table>
-	<script type="text/javascript" src="//ldn.dev/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript">
 
 
